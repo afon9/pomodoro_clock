@@ -1,0 +1,81 @@
+body{
+  text-align: center;
+  background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+img {
+  display: inline-block;
+  padding-bottom: 15px;
+  height: 75px;
+  width: 60px;
+}
+h1, h2, h4, p {
+  color: #396;
+  font-weight: 100;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv, #timeset{
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div, #timeset div > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span, #timeset div div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+#clockdiv {
+  margin: auto;
+  padding-top: 13px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid #00BF96;
+}
+#clockdiv:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  cursor: pointer;
+}
+#timeset > div{
+  display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+button {
+  background:none;
+  border:none;
+  width: 35px;
+}
+button:focus {outline:0;}
+button:hover {
+  border: 2px solid #00BF96;
+  border-radius: 5px;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.footer {
+  color: #00BF96;
+}
+.footer a{
+  color: #00816A;
+  //font-weight: bold;
+  //margin-top: 20px;
+}

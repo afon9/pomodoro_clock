@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 style = "display: inline-block">Pomodoro </h1>
+<img src= "http://res.cloudinary.com/dvgpmroew/image/upload/v1518005168/pomodoro-counter-empty_wxtvxk.png" alt="">
+<h1 style = "display: inline-block"> Clock</h1>
+<h2 id="clockTitle">Session Time</h2>
+
+<div id="clockdiv">
+  <div>
+    <span class="hours">00</span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes">25</span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds">00</span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+<div id = "timeset">
+  <div>
+    <h4>Break Length</h4>
+    <button value="breakTime-1">-</button>
+    <div>
+      <span id="breakTime">5</span>
+    </div>
+    <button value="breakTime+1">+</button>
+  </div>
+  <div>
+    <h4>Session Length</h4>
+    <button value="sessionTime-1">-</button>
+    <div>
+      <span id="sessionTime">25</span>
+    </div>
+    <button value="sessionTime+1">+</button>
+  </div>
+</div>
+<div class = "footer">
+    <p>Coded by <a href="https://www.freecodecamp.org/afon9" target="_blank"><span>Rufat Alimurzaev</span></a></p>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
